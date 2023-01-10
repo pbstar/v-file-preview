@@ -23,10 +23,15 @@ function getLocalStorage(name) {
 function setLocalStorage(name, value) {
   if (name) localStorage.setItem(name, strToBase64(value));
 }
+function getUrlKey(name) {
+  let url = window.location.href
+  return new URLSearchParams(url.split('?')[1]).get(name)
+}
 export default {
   isMobile,
   strToBase64,
   base64ToStr,
   getLocalStorage,
   setLocalStorage,
+  getUrlKey
 };

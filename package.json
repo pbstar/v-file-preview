@@ -13,7 +13,8 @@
     "docx-preview": "^0.1.14",
     "node-sass": "^6.0.0",
     "sass-loader": "^6.0.7",
-    "vue": "^2.6.14"
+    "vue": "^2.6.14",
+    "vue-pdf": "^4.3.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",

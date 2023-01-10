@@ -2,6 +2,8 @@
   <div style="height:100%;overflow: hidden;">
     <iframe width="100%" height="100%" :src="'https://view.officeapps.live.com/op/embed.aspx?src=' + fileUrl"
       frameborder="0"></iframe>
+    <!-- <iframe width="100%" height="100%" :src="'https://view.officeapps.live.com/op/view.aspx?src=' + fileUrl"
+      frameborder="0"></iframe> -->
   </div>
 </template>
 
