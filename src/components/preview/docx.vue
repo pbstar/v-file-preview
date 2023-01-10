@@ -1,6 +1,5 @@
 <template>
-  <div class="hello">
-    <!-- <h1>{{ msg }}</h1> -->
+  <div>
     <div id="container"></div>
   </div>
 </template>
@@ -8,7 +7,7 @@
 <script>
 import { renderAsync } from 'docx-preview'
 export default {
-  name: 'HelloWorld',
+  name: 'previewDocx',
   props: {
     fileUrl: String
   },

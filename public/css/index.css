@@ -1,17 +1,11 @@
 * {
   padding: 0;
   margin: 0;
-  /* color: #fff; */
-  font-size: 16px;
-  line-height: 26px;
-  font-family: courier-new, courier, monospace;
 }
 
 html,
 body {
   height: 100%;
-  background-color: #000;
-  /* overflow: hidden; */
 }
 
 #p_app_loading {
