@@ -1,0 +1,30 @@
+{
+  "name": "v-file-preview",
+  "version": "0.0.1",
+  "description": "v-file-preview 是一个文件在线预览工具。",
+  "main": "lib/v-file-preview.common.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bugs": {
+    "qq": "24612582",
+    "email": "pbstar@sina.cn"
+  },
+  "contributors": [
+    {
+      "name": "彭勃",
+      "email": "pbstar@sina.cn"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pbstar/v-file-preview"
+  },
+  "homepage": "https://pbstar.github.io/v-file-preview/",
+  "keywords": [
+    "v-file-preview",
+    "vue"
+  ],
+  "author": "pengbo <pbstar@sina.cn>",
+  "license": "MIT"
+}
