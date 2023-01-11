@@ -29,9 +29,9 @@ export default {
     }
   },
   created() {
-    console.log(encodeURIComponent('http://oss.mcweb.club/2022%E5%B9%B4%E5%9B%BD%E5%BA%86%E6%94%BE%E5%81%87%E9%80%9A%E7%9F%A5.pdf'));
+    console.log(encodeURIComponent('http://oss.mcweb.club/1.doc'));
     if (this.$unit.getUrlKey('src')) {
-      this.fileUrl = decodeURIComponent(this.$unit.getUrlKey('src')) //encodeURIComponent('http://oss.mcweb.club/2.doc')
+      this.fileUrl = decodeURIComponent(this.$unit.getUrlKey('src')) //encodeURIComponent('http://oss.mcweb.club/1.doc')
       if (this.$unit.getUrlKey('type')) {
         this.fileType = this.$unit.getUrlKey('type')
       } else {
