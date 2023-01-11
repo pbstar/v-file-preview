@@ -1,6 +1,6 @@
 {
   "name": "v-file-preview",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "v-file-preview 是一个文件在线预览工具。",
   "main": "lib/v-file-preview.common.js",
   "scripts": {

@@ -1,12 +1,13 @@
 
 import vueFilePreview from './v-file-preview.vue'
 
-const components = {
-  install(Vue) {
-    Vue.component(
-      'vueFilePreview', vueFilePreview
-    )
-  }
+let coms = [
+  vueFilePreview
+]
+let install = function (Vue) {
+  coms.forEach((com) => {
+    Vue.component(com.name, com)
+  })
 }
 
-export default components
+export default install
