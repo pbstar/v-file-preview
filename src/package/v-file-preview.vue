@@ -1,5 +1,5 @@
 <template>
-  <div class="vfilebox">
+  <div class="vfilebox" style="height: 100%;">
     <div v-if="fileUrl" style="width: 100%;height:100%;">
       <previewDocx v-if="fileType == 11" :fileUrl="fileUrl" />
       <previewPdf v-else-if="fileType == 2" :fileUrl="fileUrl" />
@@ -15,7 +15,7 @@ import previewMicrosoft from '../components/preview/microsoft.vue'
 import previewPdf from '../components/preview/pdf.vue'
 import noFile from '../components/no-file'
 export default {
-  name: 'vueFilePreview',
+  name: 'vFilePreview',
   components: {
     previewDocx,
     previewMicrosoft,
@@ -52,8 +52,3 @@ export default {
   }
 }
 </script>
-<style lang="scss" scoped>
-.vfilebox {
-  height: 100%;
-}
-</style>

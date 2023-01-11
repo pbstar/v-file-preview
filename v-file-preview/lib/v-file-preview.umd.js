@@ -16747,12 +16747,15 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-82.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/package/v-file-preview.vue?vue&type=template&id=2e90f8cc&scoped=true&
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-82.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/package/v-file-preview.vue?vue&type=template&id=0094fb7d&
 var render = function render() {
   var _vm = this,
     _c = _vm._self._c;
   return _c('div', {
-    staticClass: "vfilebox"
+    staticClass: "vfilebox",
+    staticStyle: {
+      "height": "100%"
+    }
   }, [_vm.fileUrl ? _c('div', {
     staticStyle: {
       "width": "100%",
@@ -17354,7 +17357,7 @@ var no_file_component = normalizeComponent(
 
 
 /* harmony default export */ var v_file_previewvue_type_script_lang_js_ = ({
-  name: 'vueFilePreview',
+  name: 'vFilePreview',
   components: {
     previewDocx: docx,
     previewMicrosoft: microsoft,
@@ -17391,27 +17394,21 @@ var no_file_component = normalizeComponent(
 });
 ;// CONCATENATED MODULE: ./src/package/v-file-preview.vue?vue&type=script&lang=js&
  /* harmony default export */ var package_v_file_previewvue_type_script_lang_js_ = (v_file_previewvue_type_script_lang_js_); 
-;// CONCATENATED MODULE: ./node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-64.use[0]!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-64.use[1]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-64.use[2]!./node_modules/sass-loader/lib/loader.js??clonedRuleSet-64.use[3]!./node_modules/@vue/cli-service/node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/package/v-file-preview.vue?vue&type=style&index=0&id=2e90f8cc&prod&lang=scss&scoped=true&
-// extracted by mini-css-extract-plugin
-
-;// CONCATENATED MODULE: ./src/package/v-file-preview.vue?vue&type=style&index=0&id=2e90f8cc&prod&lang=scss&scoped=true&
-
 ;// CONCATENATED MODULE: ./src/package/v-file-preview.vue
 
 
 
-;
 
 
 /* normalize component */
-
+;
 var v_file_preview_component = normalizeComponent(
   package_v_file_previewvue_type_script_lang_js_,
   render,
   staticRenderFns,
   false,
   null,
-  "2e90f8cc",
+  null,
   null
   
 )

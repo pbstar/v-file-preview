@@ -1,8 +1,8 @@
 
-import vueFilePreview from './v-file-preview.vue'
+import vFilePreview from './v-file-preview.vue'
 
 let coms = [
-  vueFilePreview
+  vFilePreview
 ]
 let install = function (Vue) {
   coms.forEach((com) => {
